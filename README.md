@@ -4,10 +4,10 @@ AVRA 소설 집필 앱의 베타 설치 파일과 사용 안내를 배포합니�
 
 ## 다운로드
 
-- **[Windows 0.1.10 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.10-beta.1/AVRA-0.1.10-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요. 0.1.9의 파일 가져오기·새 원고 생성 오류와 관계도 시점 이동을 수정한 버전입니다.
-- **[Mac 0.1.9 — Apple Silicon 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.9-beta.1/AVRA-0.1.9-macOS-Apple-Silicon.dmg)**: macOS 26 이상, M1 이후 Apple Silicon용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
+- **[Windows 0.1.11 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.11-beta.1/AVRA-0.1.11-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요.
+- **[Mac 0.1.11 — Apple Silicon 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.11-beta.1/AVRA-0.1.11-macOS-Apple-Silicon.dmg)**: macOS 26 이상, M1 이후 Apple Silicon용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
 
-이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.10으로 업데이트됩니다(Mac·Windows 공통). Mac은 0.1.9 설치 파일로 설치한 뒤 앱 안에서 0.1.10으로 업데이트하세요.
+0.1.11은 Mac의 AI 질문 "MCP failed" 오류와 느린 인터넷에서의 앱 업데이트 실패를 고친 버전입니다. 이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.11로 업데이트됩니다(Mac·Windows 공통). 업데이트가 실패하면 위 설치 파일로 설치하세요. 원고와 설정은 그대로 유지됩니다.
 
 인터넷에 연결된 첫 실행에서 인증에 성공하면 14일 Pro 체험이 자동으로 시작됩니다. 영구 Pro는 별도 발급 키로 활성화합니다. 체험이 끝나도 무료 집필 기능과 원고는 유지됩니다.
 
@@ -17,7 +17,7 @@ AVRA 소설 집필 앱의 베타 설치 파일과 사용 안내를 배포합니�
 
 Windows는 코드 서명이 없어 보안 경고가 표시될 수 있습니다. Mac은 Apple 공증을 받지 않은 베타입니다. 출처를 확인한 뒤 실행이 차단되면 [Apple 안내](https://support.apple.com/ko-kr/102445)에 따라 시스템 설정의 개인정보 보호 및 보안에서 허용할 수 있습니다.
 
-Windows 0.1.10은 Windows 빌드 서버에서 저장소 검사와 합성 원고 가져오기·생성, 설치·기본 실행을 확인했습니다. 이는 전체 GUI·AI·녹음 검증을 뜻하지 않습니다. Mac은 패키지 빌드·서명·내장 검색 라이브러리·디스크 이미지 무결성을 확인했으며 다른 실제 Mac에서 설치·실행하지 않았습니다.
+Windows 0.1.11은 Windows 빌드 서버에서 저장소 검사와 합성 원고 가져오기·생성, 설치·기본 실행을 확인했습니다. 이는 전체 GUI·AI·녹음 검증을 뜻하지 않습니다. Mac은 패키지 빌드·서명·내장 검색 라이브러리·디스크 이미지 무결성을 확인했으며 다른 실제 Mac에서 설치·실행하지 않았습니다.
 
 각 릴리스의 `SHA256SUMS` 파일로 설치 파일 무결성을 확인할 수 있습니다. 포함된 제3자 구성 요소에는 각각의 라이선스가 적용됩니다.
 
