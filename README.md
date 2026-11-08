@@ -4,10 +4,10 @@ AVRA 소설 집필 앱의 베타 설치 파일과 사용 안내를 배포합니�
 
 ## 다운로드
 
-- **[Windows 0.1.13 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.13-beta.1/AVRA-0.1.13-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요.
-- **[Mac 0.1.13 — Apple Silicon 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.13-beta.1/AVRA-0.1.13-macOS-Apple-Silicon.dmg)**: macOS 26 이상, M1 이후 Apple Silicon용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
+- **[Windows 0.1.15 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.15-beta.1/AVRA-0.1.15-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요.
+- **[Mac 0.1.15 — Apple Silicon 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.15-beta.1/AVRA-0.1.15-macOS-Apple-Silicon.dmg)**: macOS 26 이상, M1 이후 Apple Silicon용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
 
-0.1.13은 GitHub에서 받은 Mac 앱에서 AI 질문과 내용 검색이 실패하던 문제를 고친 버전입니다. 이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.13으로 업데이트됩니다(Mac·Windows 공통). 업데이트가 실패하면 위 설치 파일로 설치하세요. 원고와 설정은 그대로 유지됩니다.
+0.1.15는 AI 질문이 원고를 한 번에 넓게 읽도록 고치고, ChatGPT 연결 도구(Codex)를 Node.js 없이 자동으로 설치하는 버전입니다. Mac 재시동 뒤 검색 색인이 사라지던 문제와 iCloud에만 있는 파일 때문에 프로젝트가 열리지 않던 문제도 고쳤습니다. 이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.15로 업데이트됩니다(Mac·Windows 공통). 업데이트가 실패하면 위 설치 파일로 설치하세요. 원고와 설정은 그대로 유지됩니다.
 
 인터넷에 연결된 첫 실행에서 인증에 성공하면 14일 Pro 체험이 자동으로 시작됩니다. 영구 Pro는 별도 발급 키로 활성화합니다. 체험이 끝나도 무료 집필 기능과 원고는 유지됩니다.
 
@@ -28,7 +28,7 @@ AVRA Mac 베타는 아직 Apple 공증을 받지 않았습니다. 처음 열 때
 
 Windows는 코드 서명이 없어 보안 경고가 표시될 수 있습니다. Mac은 Apple 공증을 받지 않은 베타입니다. 출처를 확인한 뒤 실행이 차단되면 [Apple 안내](https://support.apple.com/ko-kr/102445)에 따라 시스템 설정의 개인정보 보호 및 보안에서 허용할 수 있습니다.
 
-Windows 0.1.13은 Windows 빌드 서버에서 저장소 검사와 합성 원고 가져오기·생성, 설치·기본 실행을 확인했습니다. 이는 전체 GUI·AI·녹음 검증을 뜻하지 않습니다. Mac은 패키지 빌드·서명·내장 검색 라이브러리·디스크 이미지 무결성과, 브라우저로 받은 것과 같은 격리 상태에서의 실제 AI 질문 응답을 확인했습니다. 다른 실제 Mac에서는 설치·실행하지 않았습니다.
+Windows 0.1.15는 Windows 빌드 서버에서 저장소 검사와 합성 원고 가져오기·생성, 설치·기본 실행을 확인했습니다. 이는 전체 GUI·AI·녹음 검증을 뜻하지 않습니다. Mac은 패키지 빌드·서명·내장 검색 라이브러리·디스크 이미지 무결성과, 브라우저로 받은 것과 같은 격리 상태에서의 실제 AI 질문 응답을 확인했습니다. 다른 실제 Mac에서는 설치·실행하지 않았습니다.
 
 각 릴리스의 `SHA256SUMS` 파일로 설치 파일 무결성을 확인할 수 있습니다. 포함된 제3자 구성 요소에는 각각의 라이선스가 적용됩니다.
 
