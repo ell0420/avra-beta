@@ -4,10 +4,10 @@ AVRA 소설 집필 앱의 베타 설치 파일과 사용 안내를 배포합니�
 
 ## 다운로드
 
-- **[Windows 0.1.21 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.21-beta.1/AVRA-0.1.21-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요.
-- **[Mac 0.1.21 — Apple Silicon 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.21-beta.1/AVRA-0.1.21-macOS-Apple-Silicon.dmg)**: macOS 26 이상, M1 이후 Apple Silicon용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
+- **[Windows 0.1.22 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.22-beta.1/AVRA-0.1.22-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요.
+- **[Mac 0.1.22 — Apple Silicon 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.22-beta.1/AVRA-0.1.22-macOS-Apple-Silicon.dmg)**: macOS 26 이상, M1 이후 Apple Silicon용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
 
-0.1.21은 오픈베타 버전입니다. 2027년 2월 10일까지 키 없이 모든 Pro 기능을 쓸 수 있습니다. 0.1.20의 Windows AI 질문 수정과 휴지통 개선을 포함하고, 버튼·설정 화면을 정리했습니다. 이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.21로 업데이트됩니다(Mac·Windows 공통). 업데이트가 실패하면 위 설치 파일로 설치하세요. 원고와 설정은 그대로 유지됩니다.
+0.1.22은 오픈베타 버전입니다. 2027년 2월 10일까지 키 없이 모든 Pro 기능을 쓸 수 있습니다. 한국어 옛 인코딩·한글 파일 이름 원고 불러오기, AI 연결 안내와 Claude 자동 설치, 가벼워진 검색 색인을 포함합니다. 이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.22로 업데이트됩니다(Mac·Windows 공통). 업데이트가 실패하면 위 설치 파일로 설치하세요. 원고와 설정은 그대로 유지됩니다.
 
 오픈베타 기간에는 체험 없이 모든 Pro 기능을 쓸 수 있습니다. 베타가 끝나면 인터넷에 연결된 첫 실행에서 14일 Pro 체험이 시작되고, 영구 Pro는 별도 발급 키로 활성화합니다. 체험이 끝나도 무료 집필 기능과 원고는 유지됩니다.
 
@@ -28,7 +28,7 @@ AVRA Mac 베타는 아직 Apple 공증을 받지 않았습니다. 처음 열 때
 
 Windows는 코드 서명이 없어 보안 경고가 표시될 수 있습니다. Mac은 Apple 공증을 받지 않은 베타입니다. 출처를 확인한 뒤 실행이 차단되면 [Apple 안내](https://support.apple.com/ko-kr/102445)에 따라 시스템 설정의 개인정보 보호 및 보안에서 허용할 수 있습니다.
 
-Windows 0.1.21은 Windows 빌드 서버에서 설치·기본 실행을 확인했습니다. 0.1.20부터 Windows AI 질문은 빌드 서버의 AI 질문·MCP 연결 부품 시험과 실제 Windows PC의 ChatGPT 질문으로 확인했습니다. Mac은 패키지 빌드·서명·내장 검색 라이브러리·디스크 이미지 무결성을 확인했고, 0.1.15는 새 사용자 계정에서 GitHub로 받은 앱의 AI 연결·원고 세팅을, 0.1.17은 같은 계정에서 0.1.15→0.1.17 앱 안 업데이트를 확인했습니다. 다른 실제 Mac에서는 설치·실행하지 않았습니다.
+Windows 0.1.22은 Windows 빌드 서버에서 설치·기본 실행을 확인했습니다. 0.1.20부터 Windows AI 질문은 빌드 서버의 AI 질문·MCP 연결 부품 시험과 실제 Windows PC의 ChatGPT 질문으로 확인했습니다. Mac은 패키지 빌드·서명·내장 검색 라이브러리·디스크 이미지 무결성을 확인했고, 0.1.15는 새 사용자 계정에서 GitHub로 받은 앱의 AI 연결·원고 세팅을, 0.1.17은 같은 계정에서 0.1.15→0.1.17 앱 안 업데이트를 확인했습니다. 다른 실제 Mac에서는 설치·실행하지 않았습니다.
 
 각 릴리스의 `SHA256SUMS` 파일로 설치 파일 무결성을 확인할 수 있습니다. 포함된 제3자 구성 요소에는 각각의 라이선스가 적용됩니다.
 
