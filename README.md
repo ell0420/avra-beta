@@ -4,11 +4,11 @@ AVRA 소설 집필 앱의 베타 설치 파일과 사용 안내를 배포합니�
 
 ## 다운로드
 
-- **[Windows 0.1.33 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.33-beta.1/AVRA-0.1.33-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요.
-- **[Mac 0.1.33 — Apple Silicon(M1~M4) 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.33-beta.1/AVRA-0.1.33-macOS-Apple-Silicon.dmg)**: macOS 13.0 이상, Apple Silicon Mac용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
-- **[Mac 0.1.33 — Intel Mac(x64) 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.33-beta.1/AVRA-0.1.33-macOS-Intel.dmg)**: macOS 13.0 이상, Intel Mac(x64)용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
+- **[Windows 0.1.34 — 64비트 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.34-beta.1/AVRA-0.1.34-Windows-x64-setup.exe)**: 내려받은 `.exe`를 실행하세요.
+- **[Mac 0.1.34 — Apple Silicon(M1~M4) 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.34-beta.1/AVRA-0.1.34-macOS-Apple-Silicon.dmg)**: macOS 13.0 이상, Apple Silicon Mac용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
+- **[Mac 0.1.34 — Intel Mac(x64) 설치 파일](https://github.com/ell0420/avra-beta/releases/download/v0.1.34-beta.1/AVRA-0.1.34-macOS-Intel.dmg)**: macOS 13.0 이상, Intel Mac(x64)용입니다. `.dmg`를 열어 AVRA를 응용 프로그램 폴더로 옮기세요.
 
-0.1.33 오픈베타는 2027년 2월 10일까지 키 없이 모든 Pro 기능을 쓸 수 있습니다. Codex·Claude Code·Cursor 등 외부 AI 에이전트를 실행할 때 MCP 도구 목록 조회(`tools/list`)만으로 AVRA 앱이 저절로 켜지던 문제를 수정한 긴급 핫픽스이며, 구 인앱 제안함 UI 정리와 자동 백업 종료 동작 안정화를 포함합니다(세부 내역은 [v0.1.33-beta.1 릴리스 노트](https://github.com/ell0420/avra-beta/releases/tag/v0.1.33-beta.1) 참고). 이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.33으로 업데이트됩니다(Mac·Windows 공통). '설치 준비가 끝났습니다'가 나올 때까지 기다린 뒤 **지금 설치**를 누르세요. 업데이트가 실패하면 위 설치 파일로 설치하세요. 원고와 설정은 그대로 유지됩니다.
+0.1.34 오픈베타는 2027년 2월 11일까지 키 없이 모든 Pro 기능을 쓸 수 있습니다. Google Drive · Dropbox 원격 클라우드 프로젝트 최초 내려받기(Clone) 및 Drive 연결 안정화, 웹소설 문단 줄바꿈 기본 설정 저장 오류 수정, Windows Visual C++ x64 재배포 패키지 조건부 자동 설치, 외부 AI 에이전트 브리지 설정 정리를 포함합니다(세부 내역은 [v0.1.34-beta.1 릴리스 노트](https://github.com/ell0420/avra-beta/releases/tag/v0.1.34-beta.1) 참고). 이미 설치한 앱은 **도움말 > 앱 업데이트**에서 0.1.34로 업데이트됩니다(Mac·Windows 공통). '설치 준비가 끝났습니다'가 나올 때까지 기다린 뒤 **지금 설치**를 누르세요. 업데이트가 실패하면 위 설치 파일로 설치하세요. 원고와 설정은 그대로 유지됩니다.
 
 오픈베타 기간에는 체험 없이 모든 Pro 기능을 쓸 수 있습니다. 베타가 끝나면 인터넷에 연결된 첫 실행에서 14일 Pro 체험이 시작되고, 영구 Pro는 별도 발급 키로 활성화합니다. 체험이 끝나도 무료 집필 기능과 원고는 유지됩니다.
 
@@ -25,8 +25,8 @@ AVRA 소설 집필 앱의 베타 설치 파일과 사용 안내를 배포합니�
 
 Mac은 Apple 정식 공증을 완료했으며(macOS 13.0 이상, Apple Silicon · Intel), Windows는 코드 서명이 없는 베타라 설치 시 "Windows의 PC 보호" 보안 경고가 표시될 수 있습니다(**추가 정보** → **실행**).
 
-Mac 0.1.33은 Apple Silicon 및 Intel Mac 두 DMG의 Apple 공증(`Accepted`)·staple·서명 검증과 Apple Silicon 실물 바이너리 `avra mcp` 무자동실행(`tools/list` 12ms) 검증을 완료했습니다(Intel 실기 실행은 미검증). Windows 0.1.33은 GitHub Actions(`windows-2022`)에서 설치·10초 기동 및 0.1.32 → 0.1.33 인앱 덮어 업데이트를 검증했습니다(Windows 실기기 인터랙티브·브리지 동작은 미검증).
+Mac 0.1.34는 Apple Silicon 및 Intel Mac 두 DMG의 Apple 공증(`Accepted`)·staple·서명 검증과 로컬 macOS 회귀 테스트를 완료했습니다(Intel 실기 실행은 미검증). Windows 0.1.34는 GitHub Actions(`windows-2022`)에서 스토리지·VC++ x64 조건부 설치·기동 및 0.1.33 → 0.1.34 인앱 덮어 업데이트를 검증했습니다(Windows 실기기 인터랙티브·브리지·클라우드 클론 동작은 미검증).
 
-각 릴리스의 `SHA256SUMS` 파일로 설치 파일 무결성을 확인할 수 있습니다. 포함된 제3자 구성 요소에는 각각의 라이선스가 적용됩니다.
+각 릴리스의 `SHA256SUMS.txt` 파일로 설치 파일 무결성을 확인할 수 있습니다. 포함된 제3자 구성 요소에는 각각의 라이선스가 적용됩니다.
 
 GitHub의 자동 `Source code (zip)` / `Source code (tar.gz)`는 이 배포 저장소의 안내문 묶음입니다. 앱 설치에는 위의 `.exe` 또는 `.dmg`를 사용하세요.
